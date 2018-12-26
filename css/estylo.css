@@ -1,0 +1,51 @@
+.container{
+    padding-top: 50px;
+}
+
+p{
+    margin-bottom: 0%;
+}
+
+
+/*Este contenido sera para mostrar codigo por pantalla*/
+
+
+
+.highlight pre {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #777;
+    border: 0;
+}
+
+
+pre {
+    display: block;
+    font-size: 87.5%;
+    color: #212529;
+    border-radius: 1rem;
+}
+
+.highlight pre code {
+    font-size: inherit;
+    color: #394c5f;
+}
+
+
+.etiqueta {
+    color:#ff0000;
+}
+
+.clas {
+    color: #84bcdd;
+}
+.var{
+    color:#c400c4;
+}
+.texto{
+    color:#ffffff;
+}
+.nombreclas {
+    color: #d44950;
+}

@@ -1,6 +1,6 @@
 <?php
 session_start();
-if(!isset($_SESSION["user_id"]) || $_SESSION["user_id"]==null){
+if(!isset($_SESSION["username"]) || $_SESSION["username"]==null){
 	print "<script>alert(\"Acceso invalido!\");window.location='login.php';</script>";
 }
 ?>
@@ -26,7 +26,7 @@ if(!isset($_SESSION["user_id"]) || $_SESSION["user_id"]==null){
 	<div class="row">
 		<div class="col-sm-6 col-md-3">
 			<a href="" class="thumbnail" >
-				<img src="img/niko.jpg" class="img img-responsive" >
+				<img src="img/niko.jpg" class="img-fluid" alt="Responsive image" >
 			</a>	
 		</div>
 		<div class="col-md-6">
@@ -36,6 +36,7 @@ if(!isset($_SESSION["user_id"]) || $_SESSION["user_id"]==null){
 					?>
 				</h1>
 		</div>
+	
 		<div class="col-md-6">
 			<button type="button" class="btn btn-default"> Boton</button>
 			<button type="button" class="btn btn-primary"> Boton</button>

@@ -1,5 +1,5 @@
-create database myapp;
-use myapp;
+create database pruebas;
+use pruebas;
 
 create table user(
 	id int not null auto_increment primary key,

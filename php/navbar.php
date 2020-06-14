@@ -17,7 +17,7 @@
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="./login.php">INGRESO</a>
+        <a class="nav-link" href="./ingreso.php">INGRESO</a>
       </li>
 
     <?php else:?>
@@ -54,7 +54,7 @@
                     <a class="dropdown-item" href="#">My Perfil</a>
                     <a class="dropdown-item" href="#">Chat</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="logout.php"> Cerrar Cesion</a>
+                    <a class="dropdown-item" href="php/logout.php"> Cerrar Cesion</a>
                   </div>
               </li>
               <?php endif;?>

@@ -13,7 +13,7 @@
 <div class="col-md-6">
 		<h2>Registro</h2>
 
-		<form role="form" name="registro" action="php/registro.php" method="post">
+		<form role="form" name="registro" action="php/crearuser.php" method="post">
 		  <div class="form-group">
 		    <label for="username">Nombre de usuario</label>
 		    <input type="text" class="form-control" id="username" name="username" placeholder="Nombre de usuario">
